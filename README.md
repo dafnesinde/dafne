@@ -1,3 +1,5 @@
+
+
 # Dafne
 ¡Hola, soy Dafne
 
@@ -17,5 +19,14 @@ Si quieres saber más o colaborar en algún proyecto, no dudes en contact
 - 🌐 Portfolio: 
 
 ¡Gracias por pasarte por mi repositorio!
+
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE
+);
+
+INSERT INTO usuarios (nombre, email) VALUES ('Juan Pérez', 'juan@example.com');
 
 
